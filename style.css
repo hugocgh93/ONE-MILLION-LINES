@@ -165,3 +165,38 @@ footer {
 footer img {
     width: 80%;
 }
+
+/* ORDINATEUR */
+
+@media (min-width: 1200px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: block;
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: var(--Blanc);
+    }
+
+    header section h1 {
+        font-size: 3em;
+        width: 60%;
+        margin: auto auto 50px auto;
+    }
+
+    .cards {
+        display: flex;
+    }
+
+    footer img {
+        width: auto;
+    }
+}
