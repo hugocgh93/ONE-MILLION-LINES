@@ -173,18 +173,26 @@ footer img {
         display: none;
     }
 
-    .menu-desktop {
-        display: block;
-    }
 
     .container {
         width: 70%;
+    }
+
+    header nav ul {
+        text-decoration: none;
+        display: flex;
+        
+        list-style: none;
+        gap: 20px;
+     
     }
 
     header nav ul li a {
         text-decoration: none;
         color: var(--Blanc);
     }
+
+
 
     header section h1 {
         font-size: 3em;
